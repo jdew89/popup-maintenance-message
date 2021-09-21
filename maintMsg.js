@@ -2,7 +2,7 @@
 
 Run this script from the Task Scheduler using WScript. 
 
-wscript "c:\path_to_script\maintMsg.vbs"
+wscript "c:\path_to_script\maintMsg.js"
 
 I set this to run at logon for any user. They must have read/execute access to the script to run.
 
