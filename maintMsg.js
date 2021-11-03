@@ -24,7 +24,7 @@ if(weekday > 0) { //not sunday
 	var prev_tuesday_date = maintday.getUTCDate() - 4; 
 	
 	//if tuesday was the 3rd tuesday, show msg
-	if(Math.floor(prev_tuesday_date / 7 ) == 3){
+	if(Math.floor((prev_tuesday_date - 1) / 7) == 2){ //prev_tuesday_date -1 prevents the case where first tuesday is the 7th
 		//builds options for the window and then executes it.
 		var mbOK = 0;
 		var mbOKCancel = 1;
