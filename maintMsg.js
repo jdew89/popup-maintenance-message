@@ -1,4 +1,4 @@
-/*This script displays a maintenance popup window.
+/*This script displays a maintenance popup window on the Saturday after the 3rd Tuesday.
 
 Run this script from the Task Scheduler using WScript. 
 
