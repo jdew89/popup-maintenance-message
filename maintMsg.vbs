@@ -48,7 +48,7 @@ Sub MaintMsg(maint_day)
 End Sub
 
 Function CheckFor3rdTuesday(maint_day)
-	if Int(Day(maint_day) / 7) = 3 Then
+	if Int((Day(maint_day) - 1) / 7) = 2 Then
 		CheckFor3rdTuesday = true
 	Else
 		CheckFor3rdTuesday = false
